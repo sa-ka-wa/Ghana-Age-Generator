@@ -33,8 +33,21 @@ h1 {
   font-size: 20px;
   padding: 10px;
 }
+p1 {
+  color: aliceblue;
+  font-size: medium;
+}
 
-#birthday {
+.birthday {
+  float: left;
+  flex-direction: row;
+  width: 500px;
+  color: #006b3f;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#submit {
   background-color: #fcd116;
   width: 500px;
   color: #006b3f;
