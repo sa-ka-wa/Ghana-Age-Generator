@@ -43,11 +43,11 @@ p1 {
   flex-direction: row;
   flex: content;
   justify-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 500px;
   color: #006b3f;
   font-size: 20px;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 #submit {
@@ -56,4 +56,17 @@ p1 {
   color: #006b3f;
   font-size: 20px;
   padding: 10px;
+}
+.gender {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  flex: content;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  width: 500px;
+  color: #006b3f;
+  font-size: 20px;
+  /* padding: 10px; */
 }
