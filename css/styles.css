@@ -39,8 +39,11 @@ p1 {
 }
 
 .birthday {
-  float: left;
+  display: flex;
   flex-direction: row;
+  flex: content;
+  justify-items: center;
+  justify-content: space-between;
   width: 500px;
   color: #006b3f;
   font-size: 20px;
