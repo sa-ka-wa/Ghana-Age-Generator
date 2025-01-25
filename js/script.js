@@ -49,4 +49,4 @@ function handleEvent(event) {
   event.preventDefault();
 }
 
-console.log(day);
+console.log(day, month, year);
