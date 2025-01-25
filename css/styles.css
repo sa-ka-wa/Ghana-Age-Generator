@@ -1,21 +1,31 @@
-body {
-  background: url("image/GHANA.jpg");
-}
 #image {
-  float: left;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("image/GHANA.jpg");
+  margin-left: 0;
+  margin-top: 0;
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
   display: inline-flex;
   flex: left;
   flex-direction: row;
   justify-content: left;
   justify-items: left;
-  width: 50%;
-  height: 100%;
-  margin-left: 0;
+  width: 100px;
+  z-index: -1;
+  height: 100vh;
+  position: absolute;
+  opacity: 2;
 }
 
 body {
   font-family: poppins;
   display: grid;
+  position: relative;
+  background-color: #006b3f;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  height: 100vh;
   place-items: center;
   text-align: center;
   justify-content: center;
