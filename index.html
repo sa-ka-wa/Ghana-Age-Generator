@@ -11,42 +11,49 @@
     <title>Ghana</title>
   </head>
   <body>
-    <!-- <div>
-      <img
-        src="image/Premium Vector _ Aboriginal doodle pattern (1).jpeg"
-        alt="ghana pattern"
-      />
-    </div> -->
     <h1>GHANA AGE GENERATOR</h1>
+    <h3>DESCRIPTION</h3>
     <p1
       >this site helps to determine the respective AKHAN name in relation to you
       birthdate</p1
     >
     <section>
-      <form class="birthday">
-        <p>birthday</p>
+      <h3>BIRTHDATE</h3>
+      <form class="birthday" onsubmit="calculateAkanName(event)">
         <div id="day">
-          <input type="number" id="day" min="1" max="31" />
+          <input type="number" id="day" min="1" max="31" required />
         </div>
         <div id="month">
-          <input type="number" id="month" min="1" max="12" />
+          <input type="number" id="month" min="1" max="12" required />
         </div>
         <div id="year">
-          <input type="number" id="year" min="1899" max="2025" />
+          <input type="number" id="year" min="1899" max="2025" required />
         </div>
       </form>
 
       <div>
         <input type="date" id="birthday" />
       </div>
-
+      <h3>GENDER</h3>
       <form class="gender">
         <p>GENDER</p>
         <div>
-          <button id="male">MALE</button>
+          <button>
+            <input type="radio" id="male" name="gender" value="male" required />
+            <label for="male">MALE</label>
+          </button>
         </div>
         <div>
-          <button id="female">FEMALE</button>
+          <button>
+            <input
+              type="radio"
+              id="female"
+              name="gender"
+              value="female"
+              required
+            />
+            <label for="female">FEMALE</label>
+          </button>
         </div>
       </form>
 
@@ -60,6 +67,10 @@
         </p>
       </div>
     </section>
+
+    <div id="image">
+      <img src="image/GHANA.jpg" alt="ghana pattern" />
+    </div>
     <script src="js/script.js"></script>
   </body>
 </html>

@@ -37,3 +37,16 @@
 //     };
 //   }
 // }
+
+const day = persInt(document.getElementById(day).value);
+const month = persInt(document.getElementById(month).value);
+const year = persInt(document.getElementById(year).value);
+const genderButton = parseInt(
+  document.querySelector('input[name="gender"]:checked').value
+);
+
+function handleEvent(event) {
+  event.preventDefault();
+}
+
+console.log(day);

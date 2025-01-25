@@ -1,4 +1,19 @@
 body {
+  background: url("image/GHANA.jpg");
+}
+#image {
+  float: left;
+  display: inline-flex;
+  flex: left;
+  flex-direction: row;
+  justify-content: left;
+  justify-items: left;
+  width: 50%;
+  height: 100%;
+  margin-left: 0;
+}
+
+body {
   font-family: poppins;
   display: grid;
   place-items: center;
@@ -20,6 +35,16 @@ h1 {
   color: #fcd116;
 }
 
+h3 {
+  width: 100%;
+  justify-content: center;
+  color: white;
+}
+p1 {
+  color: aliceblue;
+  font-size: medium;
+}
+
 #male {
   background-color: #fcd116;
   color: #006b3f;
@@ -33,10 +58,6 @@ h1 {
   font-size: 20px;
   padding: 10px;
 }
-p1 {
-  color: aliceblue;
-  font-size: medium;
-}
 
 .birthday {
   display: flex;
@@ -47,7 +68,12 @@ p1 {
   width: 500px;
   color: #006b3f;
   font-size: 20px;
-  /* padding: 10px; */
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#day {
+  box-sizing: content-box;
 }
 
 #submit {
