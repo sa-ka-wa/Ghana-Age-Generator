@@ -86,12 +86,16 @@ p1 {
   box-sizing: content-box;
 }
 
-#submit {
+.submit {
   background-color: #fcd116;
   width: 500px;
   color: #006b3f;
   font-size: 20px;
   padding: 10px;
+}
+.submit :active {
+  background-color: #006b3f;
+  color: #fcd116;
 }
 .gender {
   float: left;
