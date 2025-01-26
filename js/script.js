@@ -50,4 +50,15 @@ const genderButton = parseInt(
   document.querySelector('input[name="gender"]:checked').value
 );
 
-console.log(persInt);
+const CC = math.floor(year/100);
+const YY = math.floor(year%100);
+const DD = Math.floor(day);
+const MM = Math.floor(month);
+
+if (DD <=0 || DD>31) 
+  showResult(error).return;
+
+const dayOfTheWeek= math.floor( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
+ 
+const maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
+const femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
