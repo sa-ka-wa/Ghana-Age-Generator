@@ -115,7 +115,14 @@ p1 {
   /* padding: 10px; */
 }
 #error {
+  display: none;
   background-color: #ce1126;
   opacity: 0.3;
   color: #ce1126;
+}
+#result {
+  display: none;
+  background-color: #006b3f;
+  opacity: 0.3;
+  color: #006b3f;
 }

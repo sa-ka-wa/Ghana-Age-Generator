@@ -30,9 +30,9 @@ document.getElementById("submit").addEventListener("click"),
   () => {
     const genderInput = document.querySelector('input[name="gender"]:checked');
 
-    const day = parseInt(document.getElementById("day").value);
-    const month = parseInt(document.getElementById("month").value);
-    const year = parseInt(document.getElementById("year").value);
+    const day = parseInt(document.getElementById("day").value, 10);
+    const month = parseInt(document.getElementById("month").value, 10);
+    const year = parseInt(document.getElementById("year").value, 10);
 
     if (genderInput) {
       const genderButton = parseInt(genderInput.value, 10);
