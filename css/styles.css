@@ -92,6 +92,7 @@ p1 {
   color: #006b3f;
   font-size: 20px;
   padding: 10px;
+  transition: 0.3;
 }
 .submit :active {
   background-color: #006b3f;
@@ -109,4 +110,9 @@ p1 {
   color: #006b3f;
   font-size: 20px;
   /* padding: 10px; */
+}
+#error {
+  background-color: #ce1126;
+  opacity: 0.3;
+  color: #ce1126;
 }

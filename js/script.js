@@ -11,6 +11,8 @@ const genderButton = parseInt(
   document.querySelector('input[name="gender"]:checked').value
 );
 
+console.log(`Day: ${day}, Month: ${month}, Year: ${year}`);
+
 const CC = math.floor(year / 100);
 const YY = math.floor(year % 100);
 const DD = day;
